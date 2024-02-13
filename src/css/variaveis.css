@@ -1,0 +1,17 @@
+:root{
+    --primary-reaction: hsl(0, 100%, 67%);
+    --primary-memory: hsl(39, 100%, 56%);
+    --primary-verbal: hsl(166, 100%, 37%);
+    --primary-visual: hsl(234, 85%, 45%);
+
+    --bgc-gradiante-cima: hsl(252, 100%, 67%);
+    --bgc-gradiante-baixo: hsl(241, 81%, 54%);
+    
+    --disco-gradiante-cima: hsla(256, 72%, 46%, 1);
+    --disco-gradiante-baixo: hsla(241, 72%, 46%, 0);
+    
+    --neutro-padrao: hsl(0, 0%, 100%);
+    --neutro-fundo: hsl(221, 100%, 96%);
+    --neutro-medio: hsl(241, 100%, 89%);
+    --neutro-escuro: hsl(224, 30%, 27%);
+}

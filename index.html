@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <link rel="stylesheet" href="src/css/reset.css">
+  <link rel="stylesheet" href="src/css/variaveis.css">
+  <link rel="stylesheet" href="src/css/estilos.css">
+  <link rel="stylesheet" href="src/css/responsivo.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <section class="your-result">
+      <h1 class="titulo">Your Result</h1>
+      <div class="disco">
+        <p class="media">
+          <span class="valor">--</span>
+          <br>
+          of 100
+        </p>
+      </div>
+      <h2 class="classificacao">Great</h2>
+      <p class="comparacao-outras-pessoas">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary">
+      <h2 class="titulo-summary">Summary</h2>
+      <div class="valores-individuais reaction">
+        <img src="src/images/icon-reaction.svg" alt="Icone de raio" class="icon ic-reaction">
+        <p class="component">Reaction</p>
+        <p id="pontos-reaction" class="pontuacao">
+          --
+        </p>
+        <span class="cem">/ 100</span>
+      </div>
+      <div class="valores-individuais memory">
+        <img src="src/images/icon-memory.svg" alt="Icone de cerebro" class="icon ic-reaction">
+        <p class="component">Memory</p>
+        <p id="pontos-memory" class="pontuacao">
+          --
+        </p>
+        <span class="cem">/ 100</span>
+      </div>
+      <div class="valores-individuais verbal">
+        <img src="src/images/icon-verbal.svg" alt="Icone de Verbal" class="icon ic-conversa">
+        <p class="component">Verbal</p>
+        <p id="pontos-verbal" class="pontuacao">
+          --
+        </p>
+        <span class="cem">/ 100</span>
+      </div>
+      <div class="valores-individuais visual">
+        <img src="src/images/icon-visual.svg" alt="Icone de olho" class="icon ic-reaction">
+        <p class="component">Visual</p>
+        <p id="pontos-visual" class="pontuacao">
+          --
+        </p>
+        <span class="cem">/ 100</span>
+      </div>
+
+      <button id="btn-continue">Continue</button>
+    </section>
+  </main>
+
+  <script src="src/js/index.js"></script>
+</body>
+</html>
