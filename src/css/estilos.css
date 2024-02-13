@@ -13,6 +13,8 @@ main{
     color: var(--neutro-medio);
     height: 45vh;
     font-size: 2rem;
+    
+
 }
 
 .your-result .titulo{
@@ -60,6 +62,7 @@ main{
     height: 55%;
     flex: 1;
     gap: 2rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .summary .titulo-summary{
@@ -90,7 +93,6 @@ main{
     color: rgb(174, 174, 174);
 }
 #btn-continue:hover { 
-    /* background-color: red; */
     background-image: linear-gradient(to bottom, var(--bgc-gradiante-cima), var(--bgc-gradiante-baixo));
     
 
