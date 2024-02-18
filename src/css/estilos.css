@@ -92,12 +92,12 @@ main{
 .summary .valores-individuais .pontuacao + span{
     color: rgb(174, 174, 174);
 }
-#btn-continue:hover { 
+.botao:hover { 
     background-image: linear-gradient(to bottom, var(--bgc-gradiante-cima), var(--bgc-gradiante-baixo));
     
 
 }
-#btn-continue {
+.botao {
     width: 100%;
     border-radius: 999px;
     border: none;
@@ -109,6 +109,9 @@ main{
     cursor: pointer;
 }
 
+.sumir{
+    display: none;
+}
 
 .summary .valores-individuais.reaction .component{
     color: var(--primary-reaction);
